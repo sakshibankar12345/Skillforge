@@ -58,6 +58,7 @@
        }
      } else {
        console.error('No refresh token found.');
+       console.error('No refresh token found.');
        authService.logout(); // Logout user if refresh token is missing
      }
    },
